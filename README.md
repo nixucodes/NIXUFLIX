@@ -95,3 +95,38 @@ input{
 
 </body>
 </html>
+section class="hero">
+    <h1>Welcome to FlixPin</h1>
+    <p>Watch movies, series and discover amazing content.</p>
+    <button>▶ Watch Now</button>
+</section>.hero{
+    height:350px;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)),
+    url("https://picsum.photos/1200/600");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:40px;
+}
+
+.hero h1{
+    font-size:45px;
+    margin:0;
+}
+
+.hero p{
+    font-size:18px;
+    width:300px;
+}
+
+.hero button{
+    width:150px;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    background:red;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
